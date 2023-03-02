@@ -1,7 +1,7 @@
 /* see the brand guide for colors, fonts, and images in CodePen: 
 https://docs.google.com/document/d/13de5zlWmnox1BbZOiKo1p7tsirkgv0IQLG_bg1R60uE/edit?usp=sharing */
 
-h1, h2, h3{
+h1{
   font-family: 'Poppins', sans-serif;
   font-size:35px;
 }
@@ -87,7 +87,7 @@ a{
 .card{
   background-color:#59331D;
   font-size:18px;
-  width:280px;
+  width:240px;
   border-radius: 20px;
   margin: 15px;
 
