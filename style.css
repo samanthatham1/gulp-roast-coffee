@@ -56,6 +56,15 @@ a{
   gap:10px;
 }
 
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #d98555;
+}
+
+
 .navigation > div{
   width: 100px;
   margin: 10px 10px;
@@ -63,6 +72,12 @@ a{
   line-height: 20px;
 }
 
+/*coffee beans at bottom*/
+.container {
+  background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
+  padding-bottom: 300px;
+  background-repeat: repeat-x;
+}
 
 .fa-solid{
   color:white;
