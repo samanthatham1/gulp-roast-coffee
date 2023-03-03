@@ -72,13 +72,6 @@ nav a:hover {
   line-height: 20px;
 }
 
-/*coffee beans at bottom*/
-.container {
-  background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
-  padding-bottom: 300px;
-  background-repeat: repeat-x;
-}
-
 .fa-solid{
   color:white;
   margin-right: 3px;
