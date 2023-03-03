@@ -123,6 +123,8 @@ button:hover {
   color: #F2F2F2;
   background-color: #082B59;
 }
+
+
 @media screen and (max-width: 1000px) {
 
   .mobileimg{
@@ -155,7 +157,7 @@ button:hover {
 }
 
 .button {
-  width:100%;
+  width:100%
 }
 
 h1{
@@ -170,26 +172,36 @@ p{
 
 }
 
-h2 {
-  font-size: 36px;
+$fontsize: 18px;
+
+h2{
+  font-size: $fontsize + $fontsize;
   font-family: "Poppins", sans-serif;
 }
 
-article h2 {
-  font-size: 36px;
-  font-family: "Poppins", sans-serif;
+article{
+  h2{
+    font-size: $fontsize + $fontsize;
+    font-family: "Poppins", sans-serif;
+  }
 }
 
-
-h1{
+@mixin iamsassay{
   color: red;
   background-color: black;
 }
 
 h1{
-  margin: 200px;
-  padding: 200px;
+  @include iamsassay;
 }
-/*# sourceMappingUrL=style.css.map */
+
+@mixin crazyspacing($martin,$padding){
+  margin:$martin;
+  padding:$patrick;
+}
+
+h1{
+  @include crazyspacing(200px,200px);
+}
 
 @import "style.scss";
